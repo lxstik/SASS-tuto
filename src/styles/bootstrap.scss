@@ -1,8 +1,11 @@
-// src/styles/bootstrap.scss
 
-// Sobrescribe variables de Bootstrap
-$primary: #244f69;
+$primary: gray;
 
-// Importa Bootstrap desde node_modules
+    h1{
+        color: $primary;
+    }
+
+
+
 @import "bootstrap/scss/bootstrap";
 
